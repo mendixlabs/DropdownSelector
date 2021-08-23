@@ -7,6 +7,7 @@
 </a>
 </div>
 <br/>
+
 # DropdownSelector widget
 
 Enhancement of the standard html form dropdown element for usability and UX purposes.
