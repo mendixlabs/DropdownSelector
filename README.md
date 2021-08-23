@@ -1,3 +1,10 @@
+<div align="center">
+<a align="center" href="https://github.com/mendixlabs/app-services-components">
+<span align="center">
+⚠️ This Widget should not be used past Mendix 8, and is no longer supported ⚠️
+</span>
+</a>
+</div>
 # DropdownSelector widget
 
 Enhancement of the standard html form dropdown element for usability and UX purposes.
@@ -18,9 +25,9 @@ The widget adds a placeholder functionality as well as the creation of a stylabl
 4. Possibility for automatic height calculation and resizing of the dropdown menu.
 5. Possibility for fixed positioning of the menu (which can be used if advanced scroll container layouts are problematic).
 6. Supports dynamic changing between editable and non-editable versions of the widget.
-6. Has keyboard compatibility whilst using the dropdown.
-7. Option to automatically disable the creation of a stylable version on mobile and tablet devices.
-8. Uses all the normal functionality the original Mendix selector element has.
+7. Has keyboard compatibility whilst using the dropdown.
+8. Option to automatically disable the creation of a stylable version on mobile and tablet devices.
+9. Uses all the normal functionality the original Mendix selector element has.
 
 ## Implementation steps
 
@@ -30,20 +37,25 @@ The widget adds a placeholder functionality as well as the creation of a stylabl
 4. Add styling to the theme to make any further adjustments
 
 ## Notes
+
 Due to some differences in html markup, the widget doesn't work well with label-less input fields. If used without label but with enable disable editability: make sure to use an empty label.
 
 ## Release Notes
+
 Appstore 1.2 release:
+
 - fixed horizontal form bug with incorrect width of form elements.
 - fixed bug that caused infinite loop on reloading the same page or when using snippets.
 - fixed bug in which a disabled field could no longer be clickable after becoming enabled again.
 
 Appstore 1.1 release:
+
 - fixed issue with delays in original dropdown being filled with data
 - added observers to cope with external changes to the original element that don't trigger an update view event
 - added observer support for IE10
 
 Appstore 1.0 release:
+
 - first version of the widget
 
 ## More information
