@@ -1,3 +1,4 @@
+<br/>
 <div align="center">
 <a align="center" href="https://github.com/mendixlabs/app-services-components">
 <span align="center">
@@ -5,6 +6,7 @@
 </span>
 </a>
 </div>
+<br/>
 # DropdownSelector widget
 
 Enhancement of the standard html form dropdown element for usability and UX purposes.
